@@ -15,7 +15,7 @@ public partial class Jogo
 
     public string Descricao { get; set; } = null!;
 
-    public bool StatusJogo { get; set; }
+    public bool? StatusJogo { get; set; }
 
     public int? FK_UsuarioID { get; set; }
 

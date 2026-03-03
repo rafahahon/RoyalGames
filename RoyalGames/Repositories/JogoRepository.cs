@@ -18,7 +18,8 @@ namespace RoyalGames.Repositories
         {
             List<Jogo> jogos = _context.Jogo.Include(jogo => jogo.Genero)
                 .Include(jogo => jogo.Plataforma)
-                .Include(jogo => jogo.Usuario)
+                .Include(jogo => jogo.FK_Usuario)
+                .Include(jogo => jogo.FK_Classificacao)
                 .ToList();
 
             return jogos;
@@ -29,7 +30,8 @@ namespace RoyalGames.Repositories
             Jogo? jogo = _context.Jogo
                 .Include(jogoDb => jogoDb.Genero)
                 .Include(jogoDb => jogoDb.Plataforma)
-                .Include(jogoDb => jogoDb.Usuario)
+                .Include(jogoDb => jogoDb.FK_Usuario)
+                .Include(jogo => jogo.FK_Classificacao)
                 .FirstOrDefault(jogoDb => jogoDb.JogoID == id);
 
             return jogo;
@@ -57,16 +59,16 @@ namespace RoyalGames.Repositories
             return jogo;
         }
 
-        public void Adicionar(Jogo jogo, List<int> generoIds, List<int> plataformaIds)
+        public void Adicionar(Jogo jogo, List<int> GeneroIds, List<int> PlataformaIds)
         {
             List<Genero> generos = _context.Genero
-                .Where(genero => generoIds.Contains(genero.GeneroID))
+                .Where(genero => GeneroIds.Contains(genero.GeneroID))
                 .ToList();
 
             jogo.Genero = generos;
 
             List<Plataforma> plataformas = _context.Plataforma
-                .Where(plataforma => plataformaIds.Contains(plataforma.PlataformaID))
+                .Where(plataforma => PlataformaIds.Contains(plataforma.PlataformaID))
                 .ToList();
 
             jogo.Plataforma = plataformas;
@@ -76,7 +78,7 @@ namespace RoyalGames.Repositories
         }
 
         // se der algo errado, provavelmente e aqui
-        public void Atualizar(Jogo jogo, List<int> generoIds, List<int> plataformaIds)
+        public void Atualizar(Jogo jogo, List<int> GeneroIds, List<int> PlataformaIds)
         {
             Jogo? jogoBanco = _context.Jogo
                 .Include(jogo => jogo.Genero)
@@ -103,7 +105,7 @@ namespace RoyalGames.Repositories
             }
 
             var generos = _context.Genero
-                .Where(genero => generoIds.Contains(genero.GeneroID))
+                .Where(genero => GeneroIds.Contains(genero.GeneroID))
                 .ToList();
 
             jogoBanco.Genero.Clear();
@@ -114,7 +116,7 @@ namespace RoyalGames.Repositories
             }
 
             var plataformas = _context.Plataforma
-                .Where(plataforma => plataformaIds.Contains(plataforma.PlataformaID))
+                .Where(plataforma => PlataformaIds.Contains(plataforma.PlataformaID))
                 .ToList();
 
             jogoBanco.Plataforma.Clear();
