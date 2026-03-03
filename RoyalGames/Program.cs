@@ -16,6 +16,7 @@ using System.Text;
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
+<<<<<<< HEAD
 using RoyalGames.Interfaces;
 using RoyalGames.Repositories;
 using System.Text;
@@ -35,6 +36,10 @@ using System.Text;
 >>>>>>> origin/Feature-Genero
 =======
 >>>>>>> origin/Feature-Classificacao
+=======
+ using RoyalGames.Interfaces;
+ using RoyalGames.Repositories;
+>>>>>>> origin/Feature-Plataforma
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -78,6 +83,7 @@ builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/Feature-Genero
@@ -108,6 +114,15 @@ builder.Services.AddScoped<IClassificacaoRepository, ClassificacaoRepository>();
 builder.Services.AddScoped<ClassificacaoService>();
 
 >>>>>>> origin/Feature-Classificacao
+=======
+
+builder.Services.AddScoped<IPlataformaRepository, PlataformaRepository>();
+builder.Services.AddScoped<PlataformaService>();
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<UsuarioService>();
+
+>>>>>>> origin/Feature-Plataforma
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();
