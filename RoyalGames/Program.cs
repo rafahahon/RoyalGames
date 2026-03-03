@@ -3,10 +3,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Text;
+=======
+>>>>>>> origin/Feature-Jogo
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
+using RoyalGames.Interfaces;
+using RoyalGames.Repositories;
+using System.Text;
 // using RoyalGames.Interfaces;
 // using RoyalGames.Repositories;
 =======
@@ -57,12 +63,19 @@ builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 (builder.Configuration.GetConnectionString("Default")));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Usuário
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
 
 >>>>>>> origin/Feature-Usuario
+=======
+// Jogo
+builder.Services.AddScoped<IJogoRepository, JogoRepository>();
+builder.Services.AddScoped<JogoService>();
+
+>>>>>>> origin/Feature-Jogo
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();

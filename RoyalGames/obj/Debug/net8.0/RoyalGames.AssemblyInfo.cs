@@ -15,10 +15,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d9e03f47916164973add6aba663b9b171a2e408")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0dd717797ce7e0de0715a55c777ab63d4e1b521")]
 >>>>>>> origin/Feature-Usuario
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de73b4caa2e7720dd0d1c5f6a71a006605297122")]
+>>>>>>> origin/Feature-Jogo
 [assembly: System.Reflection.AssemblyProductAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
