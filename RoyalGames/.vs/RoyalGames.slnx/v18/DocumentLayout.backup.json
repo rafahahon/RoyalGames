@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:04:59.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GeneroRepository.cs",
               "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Repositories\\GeneroRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\GeneroRepository.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GeneroController.cs",
               "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Controllers\\GeneroController.cs",
               "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
@@ -43,12 +60,7 @@
               "RelativeToolTip": "Controllers\\GeneroController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T12:20:39.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+              "WhenOpened": "2026-03-02T12:20:39.482Z"
             }
           ]
         }
