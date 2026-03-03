@@ -19,6 +19,7 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d9e03f47916164973add6aba663b9b171a2e408")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0dd717797ce7e0de0715a55c777ab63d4e1b521")]
@@ -35,6 +36,9 @@ using System.Reflection;
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99703449eedf5f2979cbbb5c2e78f39aad5f80ac")]
 >>>>>>> origin/Feature-Plataforma
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d69a9ffa3d50d9ac116413512a2807587f52e3c")]
+>>>>>>> origin/Feature-LogAlteracaoJogo
 [assembly: System.Reflection.AssemblyProductAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

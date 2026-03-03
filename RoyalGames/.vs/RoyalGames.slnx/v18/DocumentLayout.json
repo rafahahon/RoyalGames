@@ -8,14 +8,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\applications\\conversoes\\imagemparabytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:applications\\conversoes\\imagemparabytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\applications\\services\\logalteracaojogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:applications\\services\\logalteracaojogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/Feature-LogAlteracaoJogo
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\repositories\\na.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:repositories\\na.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\controllers\\autenticacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:controllers\\autenticacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\interfaces\\na.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:interfaces\\na.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
@@ -157,6 +163,22 @@
       "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\dtos\\classificacaodto\\lerclassificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:dtos\\classificacaodto\\lerclassificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> origin/Feature-Classificacao
+=======
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\controllers\\logjogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:controllers\\logjogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\dtos\\logjogodto\\lerlogjogodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:dtos\\logjogodto\\lerlogjogodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\interfaces\\ilogalteracaojogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:interfaces\\ilogalteracaojogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|c:\\users\\46581849820\\desktop\\royalgames\\royalgames\\repositories\\logalteracaojogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418AFE0-84B8-E19F-CE0A-28CE3A8D7E40}|RoyalGames.csproj|solutionrelative:repositories\\logalteracaojogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/Feature-LogAlteracaoJogo
     }
   ],
   "DocumentGroupContainers": [
@@ -166,6 +188,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,12 +293,28 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-03T11:33:59.357Z",
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutenticacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Controllers\\AutenticacaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutenticacaoController.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Controllers\\AutenticacaoController.cs",
+              "RelativeToolTip": "Controllers\\AutenticacaoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:11:33.251Z",
+>>>>>>> origin/Feature-LogAlteracaoJogo
               "EditorCaption": ""
 >>>>>>> origin/Feature-Plataforma
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -293,6 +332,55 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-03T12:40:30.474Z",
+=======
+              "Title": "LerLogJogoDto.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\DTOs\\LogJogoDto\\LerLogJogoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LogJogoDto\\LerLogJogoDto.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\DTOs\\LogJogoDto\\LerLogJogoDto.cs",
+              "RelativeToolTip": "DTOs\\LogJogoDto\\LerLogJogoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:10:49.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogAlteracaoJogoService.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Applications\\Services\\LogAlteracaoJogoService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\LogAlteracaoJogoService.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Applications\\Services\\LogAlteracaoJogoService.cs",
+              "RelativeToolTip": "Applications\\Services\\LogAlteracaoJogoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:07:41.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILogAlteracaoJogoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Interfaces\\ILogAlteracaoJogoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ILogAlteracaoJogoRepository.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Interfaces\\ILogAlteracaoJogoRepository.cs",
+              "RelativeToolTip": "Interfaces\\ILogAlteracaoJogoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:02:16.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogJogoController.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Controllers\\LogJogoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogJogoController.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Controllers\\LogJogoController.cs",
+              "RelativeToolTip": "Controllers\\LogJogoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:09:42.42Z",
+>>>>>>> origin/Feature-LogAlteracaoJogo
               "EditorCaption": ""
 =======
               "Title": "AutenticacaoController.cs",
@@ -319,6 +407,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "PlataformaController.cs",
               "DocumentMoniker": "C:\\Users\\43159446883\\Desktop\\Royal\\RoyalGames\\RoyalGames\\Controllers\\PlataformaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlataformaController.cs",
@@ -609,6 +698,17 @@
               "WhenOpened": "2026-03-03T12:38:37.207Z",
               "EditorCaption": ""
 >>>>>>> origin/Feature-Classificacao
+=======
+              "Title": "LogAlteracaoJogoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Repositories\\LogAlteracaoJogoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LogAlteracaoJogoRepository.cs",
+              "ToolTip": "C:\\Users\\46581849820\\Desktop\\RoyalGames\\RoyalGames\\Repositories\\LogAlteracaoJogoRepository.cs",
+              "RelativeToolTip": "Repositories\\LogAlteracaoJogoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:05:39.844Z",
+              "EditorCaption": ""
+>>>>>>> origin/Feature-LogAlteracaoJogo
             }
           ]
         }
