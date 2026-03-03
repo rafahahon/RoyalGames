@@ -4,15 +4,19 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Text;
 =======
 >>>>>>> origin/Feature-Jogo
+=======
+>>>>>>> origin/Feature-Genero
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
 using RoyalGames.Interfaces;
 using RoyalGames.Repositories;
 using System.Text;
+<<<<<<< HEAD
 // using RoyalGames.Interfaces;
 // using RoyalGames.Repositories;
 =======
@@ -23,6 +27,8 @@ using RoyalGames.Interfaces;
 using RoyalGames.Repositories;
 using System.Text;
 >>>>>>> origin/Feature-Usuario
+=======
+>>>>>>> origin/Feature-Genero
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,11 +70,15 @@ builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/Feature-Genero
 // Usuário
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
 
+<<<<<<< HEAD
 >>>>>>> origin/Feature-Usuario
 =======
 // Jogo
@@ -76,6 +86,12 @@ builder.Services.AddScoped<IJogoRepository, JogoRepository>();
 builder.Services.AddScoped<JogoService>();
 
 >>>>>>> origin/Feature-Jogo
+=======
+// Gênero
+builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
+builder.Services.AddScoped<GeneroService>();
+
+>>>>>>> origin/Feature-Genero
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();
