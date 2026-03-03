@@ -6,8 +6,8 @@ using System.Text;
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
-// using RoyalGames.Interfaces;
-// using RoyalGames.Repositories;
+ using RoyalGames.Interfaces;
+ using RoyalGames.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -46,6 +46,13 @@ builder.Services.AddSwaggerGen(c =>
 // Chama nossa conexão com o banco aqui na program
 builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 (builder.Configuration.GetConnectionString("Default")));
+
+
+builder.Services.AddScoped<IPlataformaRepository, PlataformaRepository>();
+builder.Services.AddScoped<PlataformaService>();
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<UsuarioService>();
 
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
