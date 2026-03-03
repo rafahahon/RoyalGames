@@ -54,6 +54,7 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "/api/Genero": {
       "get": {
@@ -89,28 +90,54 @@
                 }
               }
             }
+=======
+    "/api/Classificacao": {
+      "get": {
+        "tags": [
+          "Classificacao"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+>>>>>>> origin/Feature-Classificacao
           }
         }
       },
       "post": {
         "tags": [
+<<<<<<< HEAD
           "Genero"
+=======
+          "Classificacao"
+>>>>>>> origin/Feature-Classificacao
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/CriarGeneroDto"
+=======
+                "$ref": "#/components/schemas/CriarClassificacaoDto"
+>>>>>>> origin/Feature-Classificacao
               }
             },
             "text/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/CriarGeneroDto"
+=======
+                "$ref": "#/components/schemas/CriarClassificacaoDto"
+>>>>>>> origin/Feature-Classificacao
               }
             },
             "application/*+json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/CriarGeneroDto"
+=======
+                "$ref": "#/components/schemas/CriarClassificacaoDto"
+>>>>>>> origin/Feature-Classificacao
               }
             }
           }
@@ -122,10 +149,17 @@
         }
       }
     },
+<<<<<<< HEAD
     "/api/Genero/{id}": {
       "get": {
         "tags": [
           "Genero"
+=======
+    "/api/Classificacao/{id}": {
+      "get": {
+        "tags": [
+          "Classificacao"
+>>>>>>> origin/Feature-Classificacao
         ],
         "parameters": [
           {
@@ -140,6 +174,7 @@
         ],
         "responses": {
           "200": {
+<<<<<<< HEAD
             "description": "OK",
             "content": {
               "text/plain": {
@@ -158,12 +193,19 @@
                 }
               }
             }
+=======
+            "description": "OK"
+>>>>>>> origin/Feature-Classificacao
           }
         }
       },
       "put": {
         "tags": [
+<<<<<<< HEAD
           "Genero"
+=======
+          "Classificacao"
+>>>>>>> origin/Feature-Classificacao
         ],
         "parameters": [
           {
@@ -180,17 +222,29 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/CriarGeneroDto"
+=======
+                "$ref": "#/components/schemas/CriarClassificacaoDto"
+>>>>>>> origin/Feature-Classificacao
               }
             },
             "text/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/CriarGeneroDto"
+=======
+                "$ref": "#/components/schemas/CriarClassificacaoDto"
+>>>>>>> origin/Feature-Classificacao
               }
             },
             "application/*+json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/CriarGeneroDto"
+=======
+                "$ref": "#/components/schemas/CriarClassificacaoDto"
+>>>>>>> origin/Feature-Classificacao
               }
             }
           }
@@ -203,7 +257,11 @@
       },
       "delete": {
         "tags": [
+<<<<<<< HEAD
           "Genero"
+=======
+          "Classificacao"
+>>>>>>> origin/Feature-Classificacao
         ],
         "parameters": [
           {
@@ -223,7 +281,10 @@
         }
       }
     },
+<<<<<<< HEAD
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
     "/api/Usuario": {
       "get": {
         "tags": [
@@ -469,8 +530,12 @@
   "components": {
     "schemas": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "CriarGeneroDto": {
+=======
+      "CriarClassificacaoDto": {
+>>>>>>> origin/Feature-Classificacao
         "type": "object",
         "properties": {
           "nome": {
@@ -480,7 +545,10 @@
         },
         "additionalProperties": false
       },
+<<<<<<< HEAD
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
       "CriarUsuarioDto": {
         "type": "object",
         "properties": {
@@ -500,6 +568,7 @@
         "additionalProperties": false
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "LerGeneroDto": {
         "type": "object",
@@ -516,6 +585,8 @@
         "additionalProperties": false
       },
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
       "LerUsuarioDto": {
         "type": "object",
         "properties": {

@@ -5,17 +5,21 @@ using Microsoft.OpenApi.Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Text;
 =======
 >>>>>>> origin/Feature-Jogo
 =======
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
 using RoyalGames.Interfaces;
 using RoyalGames.Repositories;
 using System.Text;
+<<<<<<< HEAD
 <<<<<<< HEAD
 // using RoyalGames.Interfaces;
 // using RoyalGames.Repositories;
@@ -29,6 +33,8 @@ using System.Text;
 >>>>>>> origin/Feature-Usuario
 =======
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -71,13 +77,17 @@ builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
 // Usuário
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/Feature-Usuario
 =======
@@ -92,6 +102,12 @@ builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
 builder.Services.AddScoped<GeneroService>();
 
 >>>>>>> origin/Feature-Genero
+=======
+// Classificação
+builder.Services.AddScoped<IClassificacaoRepository, ClassificacaoRepository>();
+builder.Services.AddScoped<ClassificacaoService>();
+
+>>>>>>> origin/Feature-Classificacao
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();

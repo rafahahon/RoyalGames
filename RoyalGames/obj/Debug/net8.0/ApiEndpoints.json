@@ -27,14 +27,21 @@
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "ContainingType": "RoyalGames.Controllers.GeneroController",
     "Method": "Listar",
     "RelativePath": "api/Genero",
+=======
+    "ContainingType": "RoyalGames.Controllers.ClassificacaoController",
+    "Method": "Listar",
+    "RelativePath": "api/Classificacao",
+>>>>>>> origin/Feature-Classificacao
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+<<<<<<< HEAD
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[RoyalGames.DTOs.GeneroDto.LerGeneroDto, RoyalGames, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -51,22 +58,40 @@
     "ContainingType": "RoyalGames.Controllers.GeneroController",
     "Method": "Adicionar",
     "RelativePath": "api/Genero",
+=======
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoyalGames.Controllers.ClassificacaoController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Classificacao",
+>>>>>>> origin/Feature-Classificacao
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "criarDto",
+<<<<<<< HEAD
         "Type": "RoyalGames.DTOs.GeneroDto.CriarGeneroDto",
+=======
+        "Type": "RoyalGames.DTOs.ClassificacaoDto.CriarClassificacaoDto",
+>>>>>>> origin/Feature-Classificacao
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "RoyalGames.Controllers.GeneroController",
     "Method": "ObterPorId",
     "RelativePath": "api/Genero/{id}",
+=======
+    "ContainingType": "RoyalGames.Controllers.ClassificacaoController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/Classificacao/{id}",
+>>>>>>> origin/Feature-Classificacao
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -77,6 +102,7 @@
         "IsRequired": true
       }
     ],
+<<<<<<< HEAD
     "ReturnTypes": [
       {
         "Type": "RoyalGames.DTOs.GeneroDto.LerGeneroDto",
@@ -93,6 +119,14 @@
     "ContainingType": "RoyalGames.Controllers.GeneroController",
     "Method": "Atualizar",
     "RelativePath": "api/Genero/{id}",
+=======
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoyalGames.Controllers.ClassificacaoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Classificacao/{id}",
+>>>>>>> origin/Feature-Classificacao
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -104,16 +138,26 @@
       },
       {
         "Name": "criarDto",
+<<<<<<< HEAD
         "Type": "RoyalGames.DTOs.GeneroDto.CriarGeneroDto",
+=======
+        "Type": "RoyalGames.DTOs.ClassificacaoDto.CriarClassificacaoDto",
+>>>>>>> origin/Feature-Classificacao
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "RoyalGames.Controllers.GeneroController",
     "Method": "Remover",
     "RelativePath": "api/Genero/{id}",
+=======
+    "ContainingType": "RoyalGames.Controllers.ClassificacaoController",
+    "Method": "Remover",
+    "RelativePath": "api/Classificacao/{id}",
+>>>>>>> origin/Feature-Classificacao
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -127,7 +171,10 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
 >>>>>>> origin/Feature-Genero
+=======
+>>>>>>> origin/Feature-Classificacao
     "ContainingType": "RoyalGames.Controllers.UsuarioController",
     "Method": "Listar",
     "RelativePath": "api/Usuario",
