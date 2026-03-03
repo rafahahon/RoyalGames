@@ -2,6 +2,6 @@
 {
     public class CriarClassificacaoDto
     {
-        public string Nome { get; set; } = null!;
+        public string? Nome { get; set; } = null!;
     }
 }

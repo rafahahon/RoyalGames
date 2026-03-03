@@ -11,9 +11,9 @@ namespace RoyalGames.Controllers
     [ApiController]
     public class ClassificacaoController : ControllerBase
     {
-        private readonly Classificacoeservice _service;
+        private readonly ClassificacaoService _service;
 
-        public ClassificacaoController(Classificacoeservice service)
+        public ClassificacaoController(ClassificacaoService service)
         {
             _service = service;
         }

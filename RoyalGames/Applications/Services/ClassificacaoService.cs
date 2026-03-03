@@ -6,11 +6,11 @@ using RoyalGames.Interfaces;
 
 namespace RoyalGames.Applications.Services
 {
-    public class Classificacoeservice
+    public class ClassificacaoService
     {
         private readonly IClassificacaoRepository _repository;
 
-        public Classificacoeservice(IClassificacaoRepository classificacaoRepository)
+        public ClassificacaoService(IClassificacaoRepository classificacaoRepository)
         {
             _repository = classificacaoRepository;
         }
@@ -80,6 +80,7 @@ namespace RoyalGames.Applications.Services
             }
 
             ClassificacaoBanco.Nome = criarDto.Nome;
+
             _repository.Atualizar(ClassificacaoBanco);
         }
 
