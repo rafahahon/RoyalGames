@@ -79,7 +79,7 @@ namespace RoyalGames.Applications.Services
             return imagem;
         }
 
-        public LerJogoDto Adicionar(CriarJogoDto jogoDto, int usuarioId)
+        public LerJogoDto Adicionar(CriarJogoDto jogoDto, int usuarioId, int classificaoId)
         {
             ValidarCadastro(jogoDto);
 
@@ -96,7 +96,7 @@ namespace RoyalGames.Applications.Services
                 Imagem = ImagemParaBytes.ConverterImagem(jogoDto.Imagem),
                 StatusJogo = true,
                 FK_UsuarioID = usuarioId,
-                FK_ClassificacaoID = ClassificacaoID
+                FK_ClassificacaoID = classificaoId
             };
 
             _repository.Adicionar(jogo, jogoDto.GeneroIds, jogoDto.PlataformaIds);

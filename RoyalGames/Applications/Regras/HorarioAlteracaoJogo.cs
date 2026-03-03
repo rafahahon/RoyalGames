@@ -14,7 +14,7 @@ namespace RoyalGames.Applications.Regras
 
             if (estaAberto)
             {
-                throw new DomainException("Produto só pode ser alterado fora do horário de funcionamento.")
+                throw new DomainException("Jogo só pode ser alterado fora do horário de funcionamento.");
             }
         }
     }

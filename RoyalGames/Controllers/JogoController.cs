@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RoyalGames.Applications.Services;
+using RoyalGames.Domains;
 using RoyalGames.DTOs.Jogo;
+using RoyalGames.DTOs.PlataformaDto;
 using RoyalGames.DTOs.Produto;
 using RoyalGames.Exceptions;
 using System.Security.Claims;
@@ -30,6 +32,13 @@ namespace RoyalGames.Controllers
             }
 
             return int.Parse(idTexto);
+        }
+
+        [HttpGet]
+        public ActionResult<LerJogoDto> Listar()
+        {
+            List<LerJogoDto> Jogos = _service.Listar();
+            return Ok(Jogos);
         }
 
         [HttpGet("{id}")]
@@ -70,8 +79,9 @@ namespace RoyalGames.Controllers
             try
             {
                 int usuarioId = ObterUsuarioIdLogado();
+                int classificaoId = jogoDto.ClassificacaoID;
 
-                _service.Adicionar(jogoDto, usuarioId);
+                _service.Adicionar(jogoDto, usuarioId, classificaoId);
 
                 return StatusCode(201);
             }

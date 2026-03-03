@@ -14,31 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d9e03f47916164973add6aba663b9b171a2e408")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0dd717797ce7e0de0715a55c777ab63d4e1b521")]
->>>>>>> origin/Feature-Usuario
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de73b4caa2e7720dd0d1c5f6a71a006605297122")]
->>>>>>> origin/Feature-Jogo
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbecd8d478b7beae2445878ecd0656458521f1f8")]
->>>>>>> origin/Feature-Genero
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22663f939910fc11d23612df7e251580b8f3f06a")]
->>>>>>> origin/Feature-Classificacao
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99703449eedf5f2979cbbb5c2e78f39aad5f80ac")]
->>>>>>> origin/Feature-Plataforma
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d69a9ffa3d50d9ac116413512a2807587f52e3c")]
->>>>>>> origin/Feature-LogAlteracaoJogo
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0927d031d8ba1f0df84a6740b25aa4cd3a98d9de")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoyalGames")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

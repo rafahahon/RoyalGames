@@ -2,44 +2,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 using System.Text;
-=======
->>>>>>> origin/Feature-Jogo
-=======
->>>>>>> origin/Feature-Genero
-=======
->>>>>>> origin/Feature-Classificacao
-using RoyalGames.Applications.Services;
-using RoyalGames.Contexts;
-using RoyalGames.DTOs.AutenticacaoDto;
-<<<<<<< HEAD
-using RoyalGames.Interfaces;
-using RoyalGames.Repositories;
-using System.Text;
-<<<<<<< HEAD
-<<<<<<< HEAD
-// using RoyalGames.Interfaces;
-// using RoyalGames.Repositories;
-=======
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
 using RoyalGames.Interfaces;
 using RoyalGames.Repositories;
-using System.Text;
->>>>>>> origin/Feature-Usuario
-=======
->>>>>>> origin/Feature-Genero
-=======
->>>>>>> origin/Feature-Classificacao
-=======
- using RoyalGames.Interfaces;
- using RoyalGames.Repositories;
->>>>>>> origin/Feature-Plataforma
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -79,50 +47,30 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 (builder.Configuration.GetConnectionString("Default")));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/Feature-Genero
-=======
->>>>>>> origin/Feature-Classificacao
 // Usuário
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/Feature-Usuario
-=======
 // Jogo
 builder.Services.AddScoped<IJogoRepository, JogoRepository>();
 builder.Services.AddScoped<JogoService>();
 
->>>>>>> origin/Feature-Jogo
-=======
 // Gênero
 builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
 builder.Services.AddScoped<GeneroService>();
 
->>>>>>> origin/Feature-Genero
-=======
 // Classificação
 builder.Services.AddScoped<IClassificacaoRepository, ClassificacaoRepository>();
 builder.Services.AddScoped<ClassificacaoService>();
 
->>>>>>> origin/Feature-Classificacao
-=======
-
+// Plataforma
 builder.Services.AddScoped<IPlataformaRepository, PlataformaRepository>();
 builder.Services.AddScoped<PlataformaService>();
 
-builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-builder.Services.AddScoped<UsuarioService>();
+// Log Alteração Jogo
+builder.Services.AddScoped<ILogAlteracaoJogoRepository, LogAlteracaoJogoRepository>();
+builder.Services.AddScoped<LogAlteracaoJogoService>();
 
->>>>>>> origin/Feature-Plataforma
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();

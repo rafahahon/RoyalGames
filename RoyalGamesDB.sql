@@ -1,6 +1,5 @@
 /* CTRL + K > CTRL + C = Comenta */
 /* CTRL + K > CTRL + U = Tira o comentário */
-
 CREATE DATABASE RoyalGames
 GO
 
@@ -139,7 +138,10 @@ GO
 
 -- Inserindo um Administrador/Usuário
 INSERT INTO Usuario (Nome, Email, Senha, StatusUsuario) 
-VALUES ('Admin Royal', 'admin@royalgames.com', CAST('senha_segura_123' AS VARBINARY(32)), 1);
+VALUES ('Admin Royal', 'admin@royalgames.com', HASHBYTES('SHA2_256', 'admin@123'), 1);
+
+INSERT INTO Usuario (Nome, Email, Senha, StatusUsuario) 
+VALUES ('Admin', 'admin@admin.com', HASHBYTES('SHA2_256', '123'), 1);
 
 -- Inserindo Jogos (Exemplos)
 -- Nota: O campo Imagem é VARBINARY, aqui simulamos com um valor hexadecimal curto
