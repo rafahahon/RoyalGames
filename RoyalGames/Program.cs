@@ -2,10 +2,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Text;
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
+using RoyalGames.Interfaces;
+using RoyalGames.Repositories;
+using System.Text;
 // using RoyalGames.Interfaces;
 // using RoyalGames.Repositories;
 
@@ -46,6 +48,10 @@ builder.Services.AddSwaggerGen(c =>
 // Chama nossa conexão com o banco aqui na program
 builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 (builder.Configuration.GetConnectionString("Default")));
+
+// Jogo
+builder.Services.AddScoped<IJogoRepository, JogoRepository>();
+builder.Services.AddScoped<JogoService>();
 
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
