@@ -2,12 +2,21 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+<<<<<<< HEAD
 using System.Text;
 using RoyalGames.Applications.Services;
 using RoyalGames.Contexts;
 using RoyalGames.DTOs.AutenticacaoDto;
 // using RoyalGames.Interfaces;
 // using RoyalGames.Repositories;
+=======
+using RoyalGames.Applications.Services;
+using RoyalGames.Contexts;
+using RoyalGames.DTOs.AutenticacaoDto;
+using RoyalGames.Interfaces;
+using RoyalGames.Repositories;
+using System.Text;
+>>>>>>> origin/Feature-Usuario
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,6 +56,13 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 (builder.Configuration.GetConnectionString("Default")));
 
+<<<<<<< HEAD
+=======
+// Usuário
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<UsuarioService>();
+
+>>>>>>> origin/Feature-Usuario
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();
