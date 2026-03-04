@@ -132,7 +132,7 @@ namespace RoyalGames.Applications.Services
 
             if (jogoDto.Preco < 0)
             {
-                throw new DomainException("Preço deve ser maior que zero");
+                throw new DomainException("Preço deve ser maior que zero.");
             }
 
             jogoBanco.Nome = jogoDto.Nome;

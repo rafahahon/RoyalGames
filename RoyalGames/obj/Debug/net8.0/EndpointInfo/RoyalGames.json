@@ -938,7 +938,7 @@
           }
         }
       },
-      "post": {
+      "put": {
         "tags": [
           "Usuario"
         ],

@@ -579,7 +579,7 @@
     "ContainingType": "RoyalGames.Controllers.UsuarioController",
     "Method": "Atualizar",
     "RelativePath": "api/Usuario/{id}",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

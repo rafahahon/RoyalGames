@@ -24,7 +24,7 @@ namespace RoyalGames.Repositories
 
         public Usuario? ObterPorEmail(string email)
         {
-            return _context.Usuario.First(usuario => usuario.Email == email);
+            return _context.Usuario.FirstOrDefault(usuario => usuario.Email == email);
         }
 
         public bool EmailExiste(string email)
