@@ -139,7 +139,13 @@ GO
 
 -- Inserindo um Administrador/Usuário
 INSERT INTO Usuario (Nome, Email, Senha, StatusUsuario) 
-VALUES ('Admin Royal', 'admin@royalgames.com', CAST('senha_segura_123' AS VARBINARY(32)), 1);
+VALUES ('Admin Royal', 'admin@royalgames.com',  HASHBYTES('SHA2_256', 'admin@123'));
+
+INSERT INTO Usuario (Nome, Email, Senha, StatusUsuario) 
+VALUES ('Admin Royal', '
+',  HASHBYTES('SHA2_256', 'admin@123'), 1);
+
+select * from Usuario
 
 -- Inserindo Jogos (Exemplos)
 -- Nota: O campo Imagem é VARBINARY, aqui simulamos com um valor hexadecimal curto
