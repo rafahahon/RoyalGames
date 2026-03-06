@@ -30,14 +30,12 @@ namespace RoyalGames.Controllers
         {
             LerUsuarioDto usuario = _service.ObterPorId(id);
 
-            try
+            if (usuario == null)
             {
                 return NotFound();
             }
-            catch (DomainException ex)
-            {
-                return BadRequest(ex.Message);
-            }
+
+            return Ok(usuario);
         }
 
         [HttpGet("email/{email}")]
@@ -45,15 +43,12 @@ namespace RoyalGames.Controllers
         {
             LerUsuarioDto usuario = _service.ObterPorEmail(email);
 
-            try
+            if (usuario == null)
             {
-
                 return NotFound();
             }
-            catch (DomainException ex)
-            {
-                return BadRequest(ex.Message);
-            }
+
+            return Ok(usuario);
         }
 
         [HttpPost]
